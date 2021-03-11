@@ -1,0 +1,27 @@
+.navbar-light {
+  background-color: transparent;
+}
+
+.navbar-light .navbar-brand {
+  color: yellow;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: yellow;
+}
+
+.navbar-light .nav-item.active .nav-link {
+  color: orange;
+  font-weight: bolder;
+}
+
+.header {
+  background-image: url(../image/hero_image_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-top: -60px;
+  height: 809px;
+  padding-top: 150px;
+  color: yellow;
+}
+/*# sourceMappingURL=main.css.map */

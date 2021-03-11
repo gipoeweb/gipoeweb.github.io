@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="frontend/library/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/style/main.css">
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">GiPoe Website</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto mr-2">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -28,8 +31,8 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Website</a>
-                <a class="dropdown-item" href="#">Digital Print</a>
                 <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Digital Print</a>
                 <a class="dropdown-item" href="#">Offset</a>
               </div>
             </li>
@@ -39,5 +42,14 @@
           </form>
         </div>
       </nav>
+    </div>
+    
+
+    <!-- Hero Image -->
+    <header class="header text-center">
+      <h1>Website Under Contraction</h1>
+    </header>
+      <script src="frontend/library/jquery/jquery-3.5.1.min.js"></script>
+      <script src="frontend/library/bootstrap/js/bootstrap.js"></script>  
 </body>
 </html>
